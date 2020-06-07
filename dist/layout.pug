@@ -1,0 +1,278 @@
+doctype html
+html(lang='en')
+  head
+    title Scenic HTML Template
+    //
+      Template 2099 Scenic
+      http://www.tooplate.com/view/2099-scenic
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=Edge')
+    meta(name='description' content='')
+    meta(name='keywords' content='')
+    meta(name='author' content='')
+    meta(name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1')
+    link(rel='stylesheet' href='/dist/main.css')
+    link(href="/dist/main.css" rel="stylesheet")
+  body
+    // PRE LOADER
+    .preloader
+      .spinner
+        span.sk-inner-circle
+    // MENU
+    .navbar.custom-navbar.navbar-fixed-top(role='navigation')
+      .container
+        // NAVBAR HEADER
+        .navbar-header
+          button.navbar-toggle(data-toggle='collapse' data-target='.navbar-collapse')
+            span.icon.icon-bar
+            span.icon.icon-bar
+            span.icon.icon-bar
+          // lOGO
+          a.navbar-brand(href='index.html') Easy Haulers
+        // MENU LINKS
+        .collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li
+              a.smoothScroll(href='#home') Home
+            li
+              a.smoothScroll(href='#about') Cargo Transports
+            li
+              a.smoothScroll(href='#team') Our People
+            li
+              a.smoothScroll(href='#contact') Let's talk
+    // HOME
+    section#home.parallax-section
+      .overlay
+      .container
+        .row
+          .col-md-8.col-sm-12
+            .home-text
+              h1 Transportation by road made easy and efficient
+              p Discover our range of transport services to find perfect solution tailored to your needs
+              ul.section-btn
+                a.smoothScroll(href='#about')
+                  span(data-hover='View Offerings')
+                    | View
+                    | Offerings
+      // Video
+      video(controls='' autoplay='' loop='' muted='')
+        source(src='videos/truck_background_video.mp4' type='video/mp4')
+        |                Your browser does not support the video tag.
+    // ABOUT
+    section#about.parallax-section
+      .container
+        .row
+          .col-md-offset-1.col-md-10.col-sm-12
+            .about-info
+              h3 Our cargo transport services
+              h1
+                | We have perfect solution for all type of road transportation requirements , from everyday shophop to 
+                | ultra heavy multiton industrial cargo , with proven track record in safety , reliability and customer satisfaction 
+    // PROJECT
+    section#project.parallax-section
+      .container
+        .row
+          .col-md-6.col-sm-6
+            // PROJECT ITEM
+            .project-item
+              a.image-popup(href='images/light_truck_2.jpg')
+                img.img-responsive(src='images/light_truck_2.jpg' alt='')
+                .project-overlay
+                  .project-info
+                    h1 Light transport
+                    h3 For quick light trips when you need it
+          .col-md-6.col-sm-6
+            // PROJECT ITEM
+            .project-item
+              a.image-popup(href='images/medium_truck_1.jpg')
+                img.img-responsive(src='images/medium_truck_1.jpg' alt='')
+                .project-overlay
+                  .project-info
+                    h1 Medium transport
+                    h3 Perfect for transportation needs of small businesses
+          .col-md-6.col-sm-6
+            // PROJECT ITEM
+            .project-item
+              a.image-popup(href='images/heavy_truck_3.jpg')
+                img.img-responsive(src='images/heavy_truck_3.jpg' alt='')
+                .project-overlay
+                  .project-info
+                    h1 Heavy transport
+                    h3 Heavy duty partner for heavy duty needs
+          .col-md-6.col-sm-6
+            // PROJECT ITEM
+            .project-item
+              a.image-popup(href='images/super_heavy_truck_2.jpg')
+                img.img-responsive(src='images/super_heavy_truck_2.jpg' alt='')
+                .project-overlay
+                  .project-info
+                    h1 Super Heavy transport
+                    h3 When you need a mountain mover
+          .col-md-6.col-sm-6
+            // PROJECT ITEM
+            .project-item
+              a.image-popup(href='images/cooled_truck_1.jpg')
+                img.img-responsive(src='images/cooled_truck_1.jpg' alt='')
+                .project-overlay
+                  .project-info
+                    h1 Refrigerated transport
+                    h3 Tailored for moving temprature sensitive cargo with care
+          .col-md-6.col-sm-6
+            // PROJECT ITEM
+            .project-item
+              a.image-popup(href='images/oil_truck_1.jpg')
+                img.img-responsive(src='images/oil_truck_1.jpg' alt='')
+                .project-overlay
+                  .project-info
+                    h1 Fuel transport
+                    h3 When you need a solution to move your precious fuel economically without compromise
+          .col-md-6.col-sm-6
+            // PROJECT ITEM
+            .project-item
+              a.image-popup(href='images/heavy_crop_truck_1.jpg')
+                img.img-responsive(src='images/heavy_crop_truck_1.jpg' alt='')
+                .project-overlay
+                  .project-info
+                    h1 Crop transport
+                    h3 Specialised transport ready to handle any kind of crop transport needs
+          .col-md-6.col-sm-6
+            // PROJECT ITEM
+            .project-item
+              a.image-popup(href='images/heavy_livestock_truck_1.jpg')
+                img.img-responsive(src='images/heavy_livestock_truck_1.jpg' alt='')
+                .project-overlay
+                  .project-info
+                    h1 Livestock transport
+                    h3 Specialised transport to handle delicate livestock as we care about them as much as you do                     
+    // TEAM
+    section#team.parallax-section
+      .container
+        .row
+          .col-md-offset-2.col-md-8.col-sm-12
+            // SECTION TITLE
+            .section-title
+              h1 Coming soon
+          .clearfix
+          #owl-team.owl-carousel
+            .col-md-4.col-sm-4.item
+              .team-item
+                img.img-responsive(src='images/long_route_passenger_bus_2.jpg' alt='')
+                .team-overlay
+                  ul.social-icon
+                    li
+                      a.fa.fa-twitter(href='#')
+                    li
+                      a.fa.fa-linkedin(href='#')
+              p 
+              h3 Long route passenger bus service
+            .col-md-4.col-sm-4.item
+              .team-item
+                img.img-responsive(src='images/short_route_passenger_bus_1.jpg' alt='')
+                .team-overlay
+                  ul.social-icon
+                    li
+                      a.fa.fa-instagram(href='#')
+                    li
+                      a.fa.fa-github(href='#')
+                    li
+                      a.fa.fa-facebook(href='#')
+              p
+              h3 Short route bus service
+            .col-md-4.col-sm-4.item
+              .team-item
+                img.img-responsive(src='images/river_cargo_ship_1.jpg' alt='')
+                .team-overlay
+                  ul.social-icon
+                    li
+                      a.fa.fa-instagram(href='#')
+                    li
+                      a.fa.fa-dribbble(href='#')
+                    li
+                      a.fa.fa-behance(href='#')
+              p 
+              h3 River cargo transport
+              .col-md-4.col-sm-4.item
+              .team-item
+                img.img-responsive(src='images/river_cargo_ship_1.jpg' alt='')
+                .team-overlay
+                  ul.social-icon
+                    li
+                      a.fa.fa-instagram(href='#')
+                    li
+                      a.fa.fa-dribbble(href='#')
+                    li
+                      a.fa.fa-behance(href='#')
+              p 
+              h3 River cargo transport
+    // CONTACT
+    section#contact.parallax-section
+      .container
+        .row
+          .col-md-offset-3.col-md-6.col-sm-12
+            .section-title
+              h1 Talk to us!
+          .clearfix
+          .col-md-offset-2.col-md-8.col-sm-12
+            // CONTACT FORM HERE
+            form#contact-form(action='#' method='get' role='form')
+              // IF MAIL SENT SUCCESSFULLY
+              h6.text-success Your message has been sent successfully. 
+              // IF MAIL SENDING UNSUCCESSFULL
+              h6.text-danger
+                | E-mail must be valid and message must be longer than 1 character.
+              .col-md-6.col-sm-6
+                input#cf-name.form-control(type='text' name='cf-name' placeholder='Name')
+              .col-md-6.col-sm-6
+                input#cf-email.form-control(type='email' name='cf-email' placeholder='Email Address')
+              .col-md-12.col-sm-12
+                input#cf-subject.form-control(type='text' name='subject' placeholder='Subject')
+                textarea#cf-message.form-control(rows='5' name='cf-message' placeholder='Message')
+              .col-md-offset-4.col-md-4.col-sm-offset-4.col-sm-4
+                .section-btn
+                  button#cf-submit.form-control(type='submit' name='submit')
+                    span(data-hover='Send Message') Send Message
+    // FOOTER
+    footer
+      .container
+        .row
+          .col-md-5.col-sm-6
+            h2 Digital Studio
+            p
+              | 321 Donec et justo id risus, Malesuada pharetra,
+              br
+              |  Tristique vestibulum,
+              br
+              |  Lorem ipsum
+              |                               dolor
+          .col-md-4.col-sm-6
+            .footer-info
+              h2 Keep in touch
+              p
+                a(href='tel:010-090-0780') 010-090-0780
+              p
+                a(href='mailto:info@company.com') info@company.com
+              p
+                a(href='#') Our Location
+          .col-md-3.col-sm-12
+            h2 About Us
+            p
+              | Sed vestibulum posuere ante, eget blandit metus. Morbi sodales feugiat erat, et placerat
+              | sapien suscipit ut.
+            ul.social-icon
+              li
+                a.fa.fa-twitter(href='#')
+              li
+                a.fa.fa-facebook(href='#')
+              li
+                a.fa.fa-instagram(href='#')
+              li
+                a.fa.fa-linkedin(href='#')
+          .clearfix
+          .col-md-12.col-sm-12
+            .copyright-text
+              p
+                | Copyright © 2018 Company Name
+                | | Design: Tooplate
+    // SCRIPTS
+    script(type="text/javascript" src="/dist/main.js")
+    script(type="text/javascript" src="/dist/main.js")
